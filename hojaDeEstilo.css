@@ -10,8 +10,16 @@
   margin:5px;
 }
 
-body {
+.fondo1{
   background-image: url("fondo.jpg");
+}
+
+.fondo2{
+  background-image: url("fondo2.jpg");
+}
+
+.fondo3{
+  background-image: url("fondo3.jpg");
 }
 
 .parallax {
@@ -79,6 +87,7 @@ body {
     animation: glow 1s ease-in-out infinite alternate;
   }
 
+
   .caja>p{
     animation: glow 1s ease-in-out infinite alternate;
     text-align: center;
@@ -86,7 +95,6 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: red;
-    -webkit-text-stroke:.05em #000000;
   }
   
   .galeria{
@@ -106,6 +114,10 @@ img{
   object-fit: cover;
   width: 270px;
   height: 270px;
+  border: solid #ffffff;
+  border-radius: 5px;
+  border-width: 5px;
+  box-shadow: 22px 14px 5px 0px rgba(111, 111, 111, 0.75);
 }
 
 img:hover{
