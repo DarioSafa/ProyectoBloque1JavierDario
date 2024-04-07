@@ -4,12 +4,12 @@ ul, li {
     list-style: none inside;
 }
 ul.slider {
-    position:relative; /*Necesitamos que el ul sea relativo*/
+    position:relative;
 }
 ul.slider li {
-    opacity: 0; /*Ocultamos todos los <li>*/
+    opacity: 0; 
     transition: opacity .5s;
-    position: absolute; /*Posicionamos en absoluto los <li>*/
+    position: absolute; 
     left: 0px;
     top: 0px;
     margin:50px;
@@ -18,10 +18,10 @@ ul.slider li {
     background:#fff;
 }
 ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
+    opacity: 1; 
 }
 ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+    opacity: 1; 
 }
 nav {
     position:relative;
@@ -62,6 +62,7 @@ ul.slider li {
 }
 
 #slide1 {
+    font-family: Arial, sans-serif;
     background-image: url(Bechamel.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +71,7 @@ ul.slider li {
 }
 
 #slide2 {
+    font-family: Arial, sans-serif;
     background-image: url(FormaRebozado.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,6 +80,7 @@ ul.slider li {
 }
 
 #slide3 {
+    font-family: Arial, sans-serif;
     background-image: url(Freir.PNG);
     background-repeat: no-repeat;
     background-size: cover;
