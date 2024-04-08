@@ -234,6 +234,10 @@ a{
   text-decoration: underline;
 }
 
+a:hover{
+  color:pink
+}
+
 footer{
   position: fixed;
   bottom: 0;
