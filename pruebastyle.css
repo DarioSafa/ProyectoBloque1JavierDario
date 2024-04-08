@@ -139,3 +139,19 @@ nav a:active {
     background: #f90;
     color: #00324b;
 }
+
+footer{
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: flex-end;
+    top: 0;
+    bottom: 0;
+    padding: 50px;
+    font-size: 20px;
+    /* align-self: flex-end; */
+    background-color:black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+}
